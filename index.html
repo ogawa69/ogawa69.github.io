@@ -2,56 +2,56 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <title>CPS - Ремонт техники</title>
+        <title>CPS - Ремонт техники</title> 
     </head>
     <body>
-        <header class="header">
-            <div class="header__left-side">
-                <button class="header__burger-button"><img src="./assets/img/burger.svg"></button>
-                <img class="header__logo" src="./assets/img/Group.svg">
+        <aside class="burger-menu-button">
+            <div class="inner-container">
+            <div class="header">
+                <button class="header__burger" alt="Exit"><img src="././assets/img/burger.svg"></button>
+                <a class="header__logo-link" alt="Logo picture. Go to the main page"><img src="././assets/img/Group.svg"></a>
+                <button class="header__search-button" alt="Search"><img src="././assets/img/search.svg"></button>
             </div>
-            <div class="header__right-side">
-                <ul class="header__list">
-                    <li class="header__list-item"><button class="header__call-button" href="#" alt="Позвонить нам"><img src="./assets/img/call.svg"></button></li>
-                    <li class="header__list-item"><button class="header__chat-button" href="#" alt="Написать нам"><img src="./assets/img/chat.svg"></button></li>
-                    <li class="header__list-item"><button class="header__profile-button" href="#" alt="Профиль"><img src="./assets/img/profile.svg"></button></li>
-                        <ul class="header__list-option">    
-                            <li class="header__list-item"><button class="header__repair-button" href="#" alt="Ремонт техники"><img src="./assets/img/repair.svg"></button></li>
-                            <li class="header__list-item"><button class="header__check-status-button" href="#" alt="Статус ремонта"><img src="./assets/img/checkstatus.svg"></button></li>
-                        </ul>        
-                </ul>
-            </div>
-        </header>
-        <main class="main">
-            <div class="main__head">
-                <h2 class="main__title">Услуги и сервисы</h2>
-                <button class="main__repair-button" href="#" alt="Ремонт техники"><span class="main-block__link-text">Оставить заявку</span><img class="main__pic-repair-button" src="./assets/img/repair.svg"></button>
-                <button class="main__check-status-button" href="#" alt="Статус ремонта"><span class="main-block__link-text">Статус ремонта</span><img class="main__pic-check-status-button" src="./assets/img/checkstatus.svg"></button>
-            </div>
-            <nav class="nav-slider">
-                <ul class="nav-slider__list">
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Ремонтируемые бренды</a></li>
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Дополнительные услуги</a></li>
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Цены на услуги</a></li>
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Адреса сервисных центров</a></li>
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Специальные цены</a></li>
-                    <li class="nav-slider__item"><a class="nav-slider__link" href="#">Отзывы</a></li>
-                </ul>
-            </nav>
-            <div class="about">
-                
-                <div class="about_wrapper">
-                <p class="about__info-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <button class="about__more-button"><img class="about__expander-ico" src="./assets/img/expand.svg">Читать далее</button>
+            <div class="menu">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item active"><a class="nav__repair-link">Ремонт техники</a></li>
+                        <li class="nav__item"><a class="nav__services-link">Услуги и сервисы</a></li>
+                        <li class="nav__item"><a class="nav__corporation-link">Корпоративным клиент</a></li> 
+                        <li class="nav__item"><a class="nav__sellers-link">Продавцам техники</a></li> 
+                        <li class="nav__item"><a class="nav__partners-link">Партнерам</a></li> 
+                        <li class="nav__item"><a class="nav__manufacturer-link">Производителям</a></li> 
+                        <li class="nav__item"><a class="nav__our-centers-link">Наши сервисные центр</a></li> 
+                        <li class="nav__item"><a class="nav__contacts-link">Контакты</a></li>   
+                    </ul>
+                </nav>
+                <div class="contacts">
+                    <div class="contacts__wrapper-buttons">
+                        <button class="contacts__call"><img class="contacts__call-pic" src="././assets/img/call.svg"></button>
+                        <button class="contacts__chat"><img class="contacts__chat-pic" src="././assets/img/chat.svg"></button>
+                        <button class="contacts__profile"><img class="contacts__profile-pic" src="././assets/img/profile.svg"></button>
+                    </div>
+                    <a  mail="mail@cps.com" class="contacts__email">mail@cps.com</a>
+                    <a tell="8 800 890 8900" class="contacts__phone-number">8 800 890 8900</a>
                 </div>
-                <div class="logo-picture">
-                    <img class="logo-picture__img" src="./assets/img/MG3223.png" alt="CPS logo picture"></img>
-                </div>            
+                <div class="layout">
+                    <label for="layot__ru"  class="layout__ru-button checked">
+                        <input type="radio" id="layot__ru" name="layot" value="ru"  class="layout__ru-radio" alt="Change to Russian" checked>
+                        RU
+                    </label>
+                    <label for="layot__eu" class="layout__eu-button">
+                        <input type="radio" id="layot__eu" name="layot" value="eu" class="layout__eu-radio" alt="Change to English">
+                        EU
+                    </label>
+                    <label for="layot__ch" class="layout__ch-button">
+                        <input type="radio"  id="layot__ch" name="layot" value="ch" class="layout__ch-radio" alt="Change to Chinese">
+                        CH
+                    </label>
+                </div>
             </div>
-        </main>
+        </div>
+        </aside>
     </body>
-</html> 
+</html>
